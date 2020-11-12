@@ -20,7 +20,7 @@
           <span>Garmin, Polar, Suunto</span></div>
         <div class="header__contacts">
           <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-          <button class="button">Заказать звонок</button>
+          <button class="button button_header">Заказать звонок</button>
         </div>
       </header>
       <div class="promo__wrapper">
@@ -56,31 +56,37 @@
   <!--/.promo-->
   <section class="features">
     <div class="container">
-      <h2 class="section-title">Наши преимущества</h2>
+      <h2 class="section-title section-title_features">Наши преимущества</h2>
       <div class="features__icons">
         <div class="features__icon">
           <img class="features__img" src="img/icons/cup.png" alt="cup">
-          <div class="features__icon-title">Делимся опытом</div>
-          <div class="features__description">
-            Наши сотрудники всегда готовы поделиться своим опытом, 
-так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
+          <div class="features__text">
+            <div class="features__icon-title">Делимся опытом</div>
+            <div class="features__description">
+              Наши сотрудники всегда готовы поделиться своим опытом,
+              так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
+            </div>
           </div>
         </div>
         <div class="features__icon">
           <img class="features__img" src="img/icons/heart.png" alt="heart">
-          <div class="features__icon-title">Заботимся о здоровье</div>
-          <div class="features__description">
-            Мы работаем для того, 
-чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+          <div class="features__text">
+            <div class="features__icon-title">Заботимся о здоровье</div>
+            <div class="features__description">
+              Мы работаем для того,
+              чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+            </div>
           </div>
         </div>
         <div class="features__icon">
           <img class="features__img" src="img/icons/shoe.png" alt="shoe">
-          <div class="features__icon-title">Учим бегать</div>
-          <div class="features__description">
-            Помогаем с обучением 
-правильной технике бега! 
-Дружим с крупнейшей школой бега в России - <a href="#">I love running.</a>
+          <div class="features__text">
+            <div class="features__icon-title">Учим бегать</div>
+            <div class="features__description">
+              Помогаем с обучением
+              правильной технике бега!
+              Дружим с крупнейшей школой <br> бега в России - <a href="#">I love running.</a>
+            </div>
           </div>
         </div>
       </div>
@@ -89,5 +95,21 @@
     <!--/.container-->
   </section>
   <!-- /.features -->
+  <section class="consultation">
+    <div class="container">
+      <h2 class="section-title section-title_consultation">Получите бесплатную консультацию <br>
+      по подбору пульсометра</h2>
+      <div class="consultation__description">Просто заполните форму заявки <br>
+        и мы перезвоним вам в течении 10 минут</div>
+        <form action="#" class="feed-form">
+          <input type="text" name="user_name" placeholder="Ваше имя" required>
+          <input type="number" name="user_phone" placeholder="Ваш телефон" required>
+          <input type="email" name="user_email" placeholder="Ваш E-mail" required>
+          <button class="button button_submit">Заказать консультацию</button>
+        </form>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.consultation -->
 </body>
 </html>

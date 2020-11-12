@@ -1,0 +1,15 @@
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  color: #0d0d0d;
+  text-transform: uppercase;
+  &_features {
+    font-size: 30px;
+  }
+  &_consultation {
+    font-size: 36px;
+    line-height: 46px;
+    color: #ffffff;
+    text-align: left;
+  }
+}
