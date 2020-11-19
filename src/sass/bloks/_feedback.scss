@@ -1,0 +1,66 @@
+.feedback {
+  &__slider {
+    margin: 70px auto 0 auto;
+    width: 680px;
+  }
+  &__slide {
+    position: relative;
+    width: 100%;
+    padding-top: 40px;
+  }
+  &__avatar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 3px solid $contrast-color;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    object-fit: cover;
+  }
+  &__text {
+    width: 100%;
+    padding: 60px 50px 30px 50px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(251, 157, 16, 0.12);
+  }
+  &__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0d0d0d;
+  }
+  &__subtitle {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #646464;
+  }
+  &__description {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+    color: #0d0d0d;
+    text-align: left;
+  }
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -70px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .slick-next {
+    left: auto;
+    right: -70px;
+  }
+}
